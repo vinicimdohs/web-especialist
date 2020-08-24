@@ -8,15 +8,15 @@ export default function Doctor({ doctor }) {
   return (
     <div style={divStyle}>
       {get(avatar, "avatar", false) ? (
-        <img src={avatar} alt="NomeUsuario" />
+        <img style={avatarStyle} src={avatar} alt="NomeUsuario" />
       ) : (
-        <i className="large material-icons">account_circle</i>
+        <i style={avatarStyle} className="large material-icons">account_circle</i>
       )}
       <div>
         <h6>{nome}</h6>
         <h6>{especializacao}</h6>
-        <i class="material-icons">create</i>
-        <i class="material-icons">check_circle</i>
+        <i className="material-icons">create</i>
+        <i className="material-icons">check_circle</i>
       </div>
     </div>
   );

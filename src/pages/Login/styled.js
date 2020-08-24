@@ -6,7 +6,7 @@ export const Box = styled.div`
     margin-top: 100px;
 `;
 
-export const Form =  styled.form`
+export const Container =  styled.div`
     height: 550px;
     background: white;
     margin-left: 50px;

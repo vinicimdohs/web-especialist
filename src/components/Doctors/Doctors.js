@@ -1,9 +1,8 @@
 import React from "react";
-import Img from '../../img/avatar.jpg';
 import Doctor from './Doctor';
 
-export default function Doctors( doctors) {
-  const { divStyle, avatar, ulStyle, box} = styles;
+export default function Doctors({doctors}) {
+  const {ulStyle} = styles;
   return (
     <div>
       <ul style={ulStyle}>

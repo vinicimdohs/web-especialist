@@ -3,7 +3,7 @@ import Hospital from './Hospital';
 import {Link} from 'react-router-dom';
 
 export default function Hospitals({ hospitals }) {
-  const { divStyle, avatar, ulStyle, linkStyle} = styles;
+  const {ulStyle} = styles;
   return (
     <div>
       <ul style={ulStyle}>

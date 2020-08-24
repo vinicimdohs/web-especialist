@@ -20,8 +20,8 @@ export default function Hospital() {
   return (
     <div>
       <Header>
-        <Link to="/" class="waves-effect waves-light btn blue">
-          <i class="material-icons">exit_to_app</i> Sair
+        <Link to="/" className="waves-effect waves-light btn blue">
+          <i className="material-icons">exit_to_app</i> Sair
         </Link>
         <h2>Hospital São Lorenço</h2>
       </Header>
@@ -34,14 +34,14 @@ export default function Hospital() {
             <div>
               <SearchBar description={"Pesquisar Médicos..."} />
             </div>
-            <Doctors />
+            <Doctors doctors={doctors} />
           </Container>
         </div>
         <div>
           <SubTitle>
             <h4 className="center">Todos os Médicos</h4>
-            <a class="center">
-                Novo Médico<i class="material-icons">add_circle</i>
+            <a className="center">
+                Novo Médico<i className="material-icons">add_circle</i>
             </a>
           </SubTitle>
           <Line></Line>
