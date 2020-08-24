@@ -48,7 +48,7 @@ export default function Login() {
           <div className="center">
             <div></div>
             <h6>
-              Consultar a disponibilidade e os horarios dos médicos de sua
+               a disponibilidade e os horarios dos médicos de sua
               cidade nunca foi tão fácil como agora com o <b>Especialist</b>!
               Cadastre-se já e tenha o conforto de fazer isso tranquilo dentro
               da sua casa!
